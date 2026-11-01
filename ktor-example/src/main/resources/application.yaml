@@ -3,6 +3,7 @@ ktor:
     port: 8080
   application:
     modules:
-      - pancake.shack.SerializationKt.configureSerialization
-      - pancake.shack.DIKt.configureDependencyInjection
+      - pancake.shack.config.SerializationKt.configureSerialization
+      - pancake.shack.config.DIKt.configureDependencyInjection
       - pancake.shack.RoutingKt.configureRouting
+      - pancake.shack.config.MCPKt.configureMcp

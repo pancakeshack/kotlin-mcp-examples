@@ -23,7 +23,6 @@ dependencies {
     implementation(ktorLibs.server.di)
     implementation(ktorLibs.server.netty)
     implementation(libs.logback.classic)
-    implementation(libs.mcp.sdk)
     implementation(libs.mcp.server)
 
     testImplementation(libs.kotlin.test)
