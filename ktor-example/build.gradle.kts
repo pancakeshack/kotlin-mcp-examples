@@ -14,6 +14,7 @@ application {
 kotlin {
     jvmToolchain(21)
 }
+
 dependencies {
     implementation(ktorLibs.serialization.kotlinx.json)
     implementation(ktorLibs.server.config.yaml)
@@ -22,7 +23,9 @@ dependencies {
     implementation(ktorLibs.server.di)
     implementation(ktorLibs.server.netty)
     implementation(libs.logback.classic)
+    implementation(libs.mcp.sdk)
+    implementation(libs.mcp.server)
 
-    testImplementation(kotlin("test"))
+    testImplementation(libs.kotlin.test)
     testImplementation(ktorLibs.server.testHost)
 }

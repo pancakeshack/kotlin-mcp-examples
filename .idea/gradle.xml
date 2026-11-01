@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,27 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-          </set>
-        </option>
-        <option name="myGradleHome" value="" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ktor-example" />
-        <option name="gradleJvm" value="openjdk-25" />
-        <option name="modules">
-          <set>
             <option value="$PROJECT_DIR$/ktor-example" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-examples" />
-        <option name="gradleJvm" value="openjdk-25" />
-        <option name="modules">
-          <set>
             <option value="$PROJECT_DIR$/spring-examples" />
           </set>
         </option>
+        <option name="myGradleHome" value="" />
       </GradleProjectSettings>
     </option>
   </component>
