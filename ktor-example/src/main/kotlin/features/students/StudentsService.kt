@@ -6,8 +6,8 @@ import java.util.concurrent.ConcurrentHashMap
 class StudentsService {
     private val students: ConcurrentHashMap<UUID, Student> = ConcurrentHashMap()
 
-    fun addStudent(student: Student) {
-        require(!students.containsKey(student.id)) { "The student already exists in the system." }
+    fun addStudent(studentDto: CreateStudentDto) {
+        val student = Student.fromDto(studentDto)
         students[student.id] = student
     }
 
